@@ -1,0 +1,28 @@
+{
+	"name": "bsaber",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"bsaber": "./index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"dependencies": {
+		"adm-zip": "git+https://github.com/anzerr/adm-zip.git",
+		"cli.util": "git+https://github.com/anzerr/cli.util.git",
+		"fs.remove": "git+https://github.com/anzerr/fs.remove.git",
+		"promise.util": "git+https://git@github.com/anzerr/promise.util.git",
+		"request.libary": "git+https://github.com/anzerr/request.libary.git"
+	}
+}
